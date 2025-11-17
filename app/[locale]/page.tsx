@@ -23,6 +23,14 @@ export default function HomePage() {
         Start Chatting
         <IconArrowRight className="ml-1" size={20} />
       </Link>
+
+      <Link
+        className="mt-3 flex w-[260px] items-center justify-center rounded-md border border-blue-500 p-2 text-sm font-semibold text-blue-100 transition hover:bg-blue-500/10"
+        href="/chart-animator"
+      >
+        Atelier de graphiques animés
+        <IconArrowRight className="ml-1" size={18} />
+      </Link>
     </div>
   )
 }
